@@ -56,6 +56,7 @@ p {
   margin-bottom: 40px;
   background-color: #2753b8;
   color: white;
+  max-width: 80%
 }
 
 .main {
@@ -70,6 +71,7 @@ p {
 
 .section-heading {
   font-size: 20px;
+  color: #0B1A43;
 }
 
 .selected-labels {
@@ -85,21 +87,30 @@ p {
 }
 
 .label {
-  width: 600px;
-  Height: 40px;
+  width: 550px;
+  Height: 50px;
   font-size: 18px;
+  max-width: 80%
 }
 
 hr {
     display: block;
-    width: 600px;
+    width: 556px;
     height: 1px;
     border: 0;
-    margin-left: 80px;
+    margin-left: 90px;
     border-top: 1px solid #ccc;
     margin-top: 70px;
     padding: 0;
     color: #f00;
+    max-width: 80%;
+}
+
+.add-label-container {
+  max-width: 80%;
+  width: 556px;
+  margin-left: 90px;
+  margin-top: 20px;
 }
 
 .remove {
@@ -191,9 +202,16 @@ hr {
 
 .check {
   zoom: 2;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2B53B5;
+  cursor: pointer;
 }
 
 .label-text {
-  margin-left: 40px;
+  margin-left: 50px;
   margin-bottom: 10px;
+  color: grey;
 }
